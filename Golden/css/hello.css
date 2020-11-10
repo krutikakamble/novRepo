@@ -53,20 +53,21 @@ float:right;
 }
 .header-content h2{
 	font-size:75px;
-	color:#ffffff;
-	padding-bottom:51px;
-	padding-top:40px;
+		color:#ffffff;
+		padding-bottom:51px;
+		padding-top:40px;
 }
 .header-content a{
 	font-size:18px;
 	color:#ffffff;
 	background-color:#fed136;
 	padding:25px 61px;
+	
 }
 .header-content{
 	position:absolute;
-	left: calc(50% - 421px);  
-	top: calc(50% - 100px); 
+	 left: calc(50% - 448px);  
+ top:273px; 
 	text-align:center;
 }
 /* <!-- ****************************Header End**************************************--> */
@@ -362,11 +363,6 @@ textarea {
 /* <!-- ************************** Footer sec end************************************--> */
 /**********************************Media queries start*******************************/
 
-@media (max-width:1200px){ 
-		.container{
-			width:1095px;
-		}
-}
 @media (max-width:1125px){
 	.container{
 		width: 962px;
@@ -742,15 +738,15 @@ textarea {
 	}
 	.header-content {
 		top: calc(50% - 233px);
-		left: calc(50% - 94px);
+		left: calc(50% - 69px);
 	}
 	.header-content a {
 		padding: 5px 11px;
 		font-size: 9px;
 	}
 	.nav-logo h2 {
-		padding-left: 150px;
-		   font-size: 20px;
+		padding-left: 170px;
+		font-size: 20px;
 	}
 	.portfolio-heading p {
 		font-size: 12px;
@@ -815,7 +811,8 @@ textarea {
 		margin-top: 20px;
 	}
 	.about-info1 {
-		width: 129px;
+		width: 155px;
+		margin-right: 8px;
 	}
 	.about-info1 h3 {
 		font-size: 10px;
@@ -853,6 +850,32 @@ textarea {
 	.col {
 		padding-left: 236px;
 		 float: none;
+	}
+	.nav-links {
+	    padding-left: 30px;
+		float:none;
+	}
+	.row {
+		padding-left: 31px;
+	}
+	textarea {
+		height: 75px;
+	}
+	.button {
+		margin-left: 258px;
+	}
+	.map-content {
+		top: calc(50% - 148px);
+	}
+	.map-content p {
+		padding-left: 261px;
+		font-size: 13px;
+	}
+	.map-content h3 {
+		padding-left: 257px;
+	}
+	.footer-text p {
+		padding-bottom: 6px;
 	}
 }
 
