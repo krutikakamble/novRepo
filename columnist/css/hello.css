@@ -8,7 +8,7 @@ body{
 	background-image: linear-gradient(to bottom right,pink,#d6e99a);
 }
 .container{
-	width:961px;
+	max-width:961px;
 	margin:0 auto;
 }
 /* <!-- ****************************Header sec end*************************************** --> */
@@ -99,12 +99,6 @@ a.active{
 	width:561px;
 	padding-top:41px;
 }
-.img-sec img:hover{
-	filter: grayscale(100%);
-	width:570px;
-	height:350px;
-	transition:width 2s,height 2s;
-}
 .banner-text{
 	width:330px;
 	float:right;
@@ -157,6 +151,10 @@ input[type=submit]
 	height:530px;
 }
 .info-sec{
+	float:left;
+	width:280px;
+}
+.info-sec0{
 	float:left;
 	width:280px;
 }
@@ -237,7 +235,7 @@ input[type=submit]
 	font-size:12px;
 	color:#ff9900;
 }
-/* <!-- ****************************Footer sec end***********************************--> */
+/* <!-- ****************************Footer sec end***************************************--> */
 /* <!-- ****************************Copyright sec start**********************************--> */
 .copyright-sec{
 	background-color:#232323;
@@ -254,4 +252,208 @@ float:right;
 }
 .copyright-text{
 padding:23px 0;}
-/* <!-- ****************************Copyright sec end************************************--> */
+/* <!-- ****************************Copyright sec end*************************************--> */
+/**********************************Media queries start************************************/
+@media (max-width:992px){
+	.container{
+		width: 738px;
+	}
+	.nav-sec a:hover {
+		color:#666666;
+		font-size:12px;
+	}
+	.banner-text {
+		width: 265px;
+		padding-left: 20px;
+	}
+	.banner-text h2 {
+		font-size: 39px;
+		padding: 57px 0 15px 0px;
+	}
+	.banner-text p {
+		width: 200px;
+	}
+	.img-sec img {
+		width: 460px;
+	}
+	.info-sec0{
+		position:relative;
+		padding-bottom: 200px;
+	}
+	.info-img4 img {
+		height: 375px;
+	}
+	.info-sec-2{
+		position:absolute;
+		top: 0px;
+		left: 314px;
+	}
+	.nav-sec a:hover {
+		color:#666666;
+		font-size:12px;
+	}
+	.main {
+		padding-left: 60px;
+	}
+	.footer-text {
+		width: 135px;
+	}
+	.footer-text1 {
+		width: 135px;
+	}
+}
+@media (max-width:768px){
+	.container{
+		width:570px;
+	}
+	.main{
+		padding-left: 0; 
+	}
+	.nav-sec a:hover {
+		color:#666666;
+		font-size:9px;
+	}
+	.info-img3 img {
+		width: 260px;
+	}
+	.info-sec-2 {
+		left: 280px;
+	}
+	.info-sec1 {
+		margin: 0;
+	}
+	.header-img img {
+		height: 44px;
+		width: 330px;
+	}
+	.nav-sec li {
+		font-size: 9px;
+	}
+	.img-sec img {
+		width: 300px;
+			height: 238px;
+	}
+	.banner-text p {
+		width: 245px;
+		padding-bottom: 15px;
+	}
+	.banner-text h2 {
+		font-size: 29px;
+		padding: 35px 0 4px 0px;
+	}
+	input[type=submit] {
+		font-size: 9px;
+	}
+	.info-sec0 {
+		padding-bottom: 150px;
+	}
+	.info-img4 img {
+		height: 315px;
+	}
+}
+@media (max-width:600px){
+	.container{
+		width:438px;
+	}
+	.nav-sec a {
+		padding: 0 5px;
+	}
+	a.active {
+		padding-right: 7px;
+	}
+	.header-img img {
+		height: 33px;
+		width: 275px;
+	}
+	.header-text h1 {
+		font-size: 24px;
+	}
+	h1::first-letter {
+		font-size: 30px;
+	}
+	.img-sec img {
+		width: 438px;
+	}
+	.banner-text p {
+		width: 410px;
+		font-size: 15px;
+		padding-bottom: 12px;
+	}
+	.banner-text h2 {
+		font-size: 21px;
+	}
+	.banner-text {
+		width: 450px;
+	}
+	.main {
+		padding-left: 75px;
+	}
+	.info-sec0 {
+		position:static;
+	}
+	.info-sec-2 {
+		position:static;
+	}
+	.info-sec0 {
+		padding-bottom: 0px;
+	}
+	.footer-text p {
+		width: 129px;
+	}
+	.footer-text1 {
+		width: 131px;
+	}
+	.footer-text1 h6 {
+		width: 147px;
+	}
+}
+@media (max-width:468px){
+	.container{
+		width:290px;
+	}
+	.header-tab {
+		height: 80px;
+	}
+	.header-img img {
+		   margin-top: 0px;
+		width: 292px;
+	}
+	.img-sec img {
+		width: 287px;
+	}
+	.banner-text p {
+		width: 280px;
+	}
+	.banner-text {
+		padding-left: 160px;
+	}
+	.nav-sec a:hover {
+		color:#666666;
+		font-size:9px;
+	}
+	.main {
+		padding-left: 0px;
+	}
+	.nav-sec a {
+		padding: 0 12px;
+	}
+	.footer-text h6 {
+		width: 138px;
+	}
+	.copyright-text p {
+		font-size: 11px;
+	}
+	.copyright-text h6 {
+		font-size: 9px;
+	}
+	.header-text h1 {
+		font-size: 28px;
+	}
+	h1::first-letter {
+		font-size: 44px;
+	}
+	.header-text {
+		padding-left: 50px;
+	}
+}
+/**********************************Media queries end *************************************/
