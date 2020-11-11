@@ -56,12 +56,6 @@
     top: 130px;
 	width:705px;
 }
-.banner-text a:hover{
-	background:#cce6ff;
-	color:#001a33;
-	opacity:0.4;
-	border:1px solid ;
-}
 .banner-text h2{
 	color:#e4e4e4;
 	font-size:44px;
@@ -223,6 +217,11 @@ margin-top:112px;
 		.product-text h4 {
 			padding-left: 180px;
 			padding-right: 180px;
+		}
+		.nav a:hover{
+			opacity:1;
+			padding:0;
+			background:#4b96a1;
 		}
 		.circle {
 			height: 350px;
