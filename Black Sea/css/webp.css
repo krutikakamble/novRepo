@@ -43,7 +43,6 @@
 }
 /* *****************************Header End ***********************************************/
 /* *****************************Banner Start ***********************************************/
-
 .banner-img img{ 
 	width:100%; 
 }
@@ -53,7 +52,7 @@
 .banner-text{
 	position:absolute;
     left: calc(50% - 375px);
- text-align:center;
+	text-align:center;
     top: 130px;
 	width:705px;
 }
@@ -70,7 +69,6 @@
 	text-align:center;
 }
 .banner-text a{
-	
 	color:#e4e4e4;
 	font-size:30px;
 	text-decoration:none;
@@ -318,8 +316,7 @@ margin-top:112px;
 		top: 85px;
 	}
 	.banner-text h2 {
-	   
-			padding-bottom: 25px;
+		padding-bottom: 25px;
 		font-size: 30px;
 	}
 	.banner-text a {
