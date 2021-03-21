@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #2c3e50 !important ;
+}
+.navbar-brand{
+    color:white;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.navbar-brand:hover{
+    color:white;
+}
+.nav-link{
+    color:white;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.nav-link:hover{
+    color:yellowgreen;
+}
+.main{
+    background-color: #1abc9c;
+    height: 110vh;
+    width:100%;
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color:white;
+}
+.main p{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:white;
+}
+.divider{
+    display:flex;
+    width: 100%;
+    align-items: center;
+    justify-content:center;
+    margin:1.25rem 0 1.5rem;
+}
+.divider-line1{
+    width:100%;
+    max-width: 8rem;
+    height:0.25rem;
+    border-radius:1rem;
+   background-color: white;
+    border-color:#2c3e50 !important;
+    color:white;
+}
+.divider-icon1{
+    font-size:1rem;
+    color:white;
+}
+.divider-line2{
+    width:100%;
+    max-width: 8rem;
+    height:0.25rem;
+    border-radius:1rem;
+   background-color:black;
+    border-color:#2c3e50 !important;
+    
+}
+.divider-icon2{
+    font-size:1rem;
+    color:black;
+}
+.porfolio h1{
+    font-size: 3.2rem;
+    font-weight: 700;
+    color:black;
+}
+.porfolio img{
+    border-radius:20px;
+}
+.item span{
+    position: absolute;
+    top:40%;
+    left:45%;
+    font-size:40px;
+    color:white;
+    cursor: pointer;
+    opacity: 0;
+}
+.item:hover span{
+    opacity: 1;
+}
+.item{
+    position: relative;
+ }
+ .divider-icon1{
+    font-size:1rem;
+    color:white;
+}
+.divider-line2{
+    width:100%;
+    max-width: 8rem;
+    height:0.25rem;
+    border-radius:1rem;
+   background-color:black;
+    border-color:#2c3e50 !important;
+    
+}
+.divider-icon2{
+    font-size:1rem;
+    color:black;
+}
+.porfolio h1{
+    font-size: 3.2rem;
+    font-weight: 700;
+    color:black;
+}
+.porfolio img{
+    border-radius:20px;
+}
+.item span{
+    position: absolute;
+    top:40%;
+    left:45%;
+    font-size:40px;
+    color:white;
+    cursor: pointer;
+    opacity: 0;
+}
+.item:hover span{
+    opacity: 1;
+}
+.item{
+    position: relative;
+ }
+ .item::before{
+    content: "";
+   
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius:20px;
+    background-color: rgba(64, 224, 208, 0.493);
+    opacity: 0;
+}
+.item:hover::before{
+    opacity: 1;
+}
+.portfolio-modal .close{
+    position: absolute;
+    z-index: 1;
+    right: 1.5rem;
+    top:1rem;
+    font-size: 3rem;
+    color: turquoise;
+    opacity: 1;
+}
+.modal-body h1{
+    font-size: 3.2rem;
+    font-weight: 700;
+    color:black;
+}
+.modal-footer .btn{
+    color:white;
+    background-color: turquoise;
+}
+.about{
+    background-color: #1abc9c;
+    width:100%;
+    color: white;
+    font-size:15px;
+}
+.btn1{
+    height: 70px;
+    color: white;
+    width:210px;
+    background-color: #1abc9c;
+    border:2px solid white;
+    border-radius: 10px;
+    font-size:20px;
+}
+.btn1:hover{
+    background-color: white;
+    color:#1abc9c;
+}
+.about h1{
+    font-size: 3.2rem;
+    font-weight: 700;
+    color:white;
+}
+.contact h1{
+    font-size: 3.2rem;
+    font-weight: 700;
+    color:black;
+}
+.contact input{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    border-bottom: 1px solid gray;
+    padding: 25px 0;
+    margin: 0 10px;
+}
+.btn2{
+    background-color: #1abc9c;
+    color: white;
+    outline: none;
+    border:none;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 100px;
+    height: 70px;
+}
+.info{
+    background-color: #2c3e50;
+}
+.info p{
+    font-size: 21px;
+}
+.info .circle{
+    width:55px;
+    height: 55px;
+    border:none;
+    border-radius: 50%;
+    border:2px solid white;
+    color:white;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 20px;
+    padding: 10px;
+}
+.info .circle:hover {
+    color:#2c3e50;
+    background-color: white;
+}
+footer{
+    color: white;
+    background-color: #1d2935;
+}
